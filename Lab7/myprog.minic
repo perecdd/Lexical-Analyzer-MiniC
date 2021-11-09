@@ -1,0 +1,16 @@
+int somefunc(){
+	return -1;
+}
+
+int main(){
+	int a = 5;
+	int b = 6;
+	in(b);
+	
+	if(b > a){
+		out(somefunc());
+	}
+	else{
+		out(a);
+	}
+}
