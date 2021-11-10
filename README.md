@@ -62,7 +62,7 @@ Implement tests for the Token class. In tests, in particular, it is necessary to
 
 Implement the Scanner lexical analyzer class. The class constructor must receive a reference to the input stream (istream &stream) and save it in the class field.
 
-The main method of the lexical analyzer class ``` Token getNextToken();``` it must return the following lexical analysis token at each call. The implementation of the function should be based on the scheme of the finite automaton constructed at the lecture (see the diagram of the automaton)Links to an external site..
+The main method of the lexical analyzer class ``` Token getNextToken();``` it must return the following lexical analysis token at each call. The implementation of the function should be based on the scheme of the finite automaton constructed at the lecture [minicautomata.pdf](https://github.com/perecdd/Lexical-Analyzer-MiniC/files/7513357/minicautomata.pdf).
 
 Upon successful completion of the analysis after the input stream is exhausted, the token [eof] is returned.
 
