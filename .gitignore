@@ -53,12 +53,11 @@ Lab7/Lab7.vcxproj.user
 *.idb
 *.p7s
 *.xml
-*.h
 *.txt
 *.CopyComplete
 *.nupkg
 *.pump
 *.targets
-packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/custom/README.md
+packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/*
 *.config
 *.user
