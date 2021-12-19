@@ -85,7 +85,6 @@ TEST(Token, Lexems) {
 	} // id, error, str
 
 	auto func = [&](LexemType lex, int index) {
-		std::stringstream ss;
 		Token token(lex);
 		EXPECT_EQ(token.type(), lex);
 	};
