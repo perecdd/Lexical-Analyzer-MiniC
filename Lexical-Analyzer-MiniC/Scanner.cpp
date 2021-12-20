@@ -102,7 +102,7 @@ Token Scanner::getNextToken()
 		
 		if (Punctuation != punctuation.end()) {
 			stream.get();
-			return Token(Punctuation->second, Punctuation->first);
+			return Token(Punctuation->second);
 		}
 	}
 
