@@ -10,7 +10,7 @@ bool isDigit(char sym) {
 }
 
 bool isLetter(char sym) {
-	return sym >= 'a' && sym <= 'z';
+	return (sym >= 'a' && sym <= 'z') || (sym >= 'A' && sym <= 'Z');
 }
 
 int getNum(std::istream& stream) {
